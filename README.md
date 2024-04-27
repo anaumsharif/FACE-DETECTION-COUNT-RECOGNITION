@@ -57,7 +57,7 @@ pip install opencv-python
 
 ### Scripts Overview
 
-- **`face_detection.py`**:
+- **`face recognition.py`**:
   - Main script for face detection and count recognition.
   - Loads an input image or video file, detects faces, and displays the result with face count.
 
@@ -66,7 +66,7 @@ pip install opencv-python
 #### 1. Face Detection in an Image
 
 ```bash
-python fac recognitionn.py --input input_image.jpg
+python face recognition.py --input input_image.jpg
 ```
 
 ![Face Detection in Image](path/to/image_result.jpg)
@@ -74,7 +74,7 @@ python fac recognitionn.py --input input_image.jpg
 #### 2. Face Detection in a Video
 
 ```bash
-python face_detection.py --input input_video.mp4
+python face recognition.py --input input_video.mp4
 ```
 
 ### Contributing
